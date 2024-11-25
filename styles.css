@@ -1,0 +1,93 @@
+/* ADD YOUR CUSTOM CSS TO THIS FILE BELOW */
+#mainNav{
+	height: 50px;
+} 
+
+#about {
+	text-color: white !important; 
+}
+
+h2 {
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+
+body, html {
+  height: 100%;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("tacoshead.png")!important;
+
+  /* Full height */
+  height: 70%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn {
+  background-color: #e7e7e7; color: black;
+  border: none;
+  color: darkslategray;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+
+.members {
+	padding-right: 50px!important;
+}
+
+h1 {
+	padding-top: 200px;
+	font-family: "Copperplate", "Copperplate Gothic Light", sans-serif;
+	font-size: 100px;
+  color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)); /* Text color */
+  text-shadow: 
+    -1px -1px 0 white,  /* Top-left shadow */
+     1px -1px 0 white,  /* Top-right shadow */
+    -1px  1px 0 white,  /* Bottom-left shadow */
+     1px  1px 0 white;  /* Bottom-right shadow */
+     /* credit Chatgpt for text outline*/ 
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 280px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+#menu {
+	padding-block: 30px;
+}
+#history {
+	background-color: floralwhite;!important;
+}
+
+#photos{
+	background-color: floralwhite;!important;
+}
+
